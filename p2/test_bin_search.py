@@ -47,3 +47,8 @@ def test_many_equals_left():
 
 def test_many_equals_right():
     assert bin_search([1,2,3,3,3,4,5,6,7,7,7,7], 7) == 12
+
+
+def test_unsorted_array_returns_some_index():
+    assert bin_search([1,6,2,3,5], 4) <= 5
+    assert bin_search([1, 6, 2, 3, 5], 4) >= 0
