@@ -1,6 +1,10 @@
 from bin_search import bin_search
 
 
+def test_empty_array():
+    assert bin_search([], 0) == 0
+
+
 def test_single_present_element():
     assert bin_search([1], 1) == 1
 
