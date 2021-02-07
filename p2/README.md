@@ -8,5 +8,5 @@
 
 Прогнать тесты:
 ```
-pytest
+python -m pytest 
 ```
